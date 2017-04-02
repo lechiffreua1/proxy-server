@@ -1,0 +1,23 @@
+{
+  "name": "Noode.JS-Coding-Challenge",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "pretest": "npm install",
+    "test": "mocha ./test/integration/controllers"
+  },
+  "dependencies": {
+    "async": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3"
+  }
+}
