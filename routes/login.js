@@ -20,7 +20,8 @@ function loginCallback(req, res) {
       if (errorStatus) {
         res.sendStatus(errorStatus);
       } else {
-        throw err;
+        console.error(err);
+        res.sendStatus(500);
       }
     });
 }

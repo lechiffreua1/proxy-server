@@ -20,7 +20,8 @@ function profileCallback(req, res) {
     function error(response) {
       let err = response;
 
-      throw err;
+      console.error(err);
+      res.sendStatus(500);
     });
 }
 
